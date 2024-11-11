@@ -1,0 +1,162 @@
+Word	Part of Speech	Definition	Example Sentence	Korean Translation	Chinese Translation
+Abundance	Noun	A very large quantity of something.	There is an abundance of food at the buffet.	풍부함	丰富
+Adventurous	Adjective	Willing to take risks or try new things.	She has an adventurous spirit and loves to explore new places.	모험적인	冒险的
+Aloof	Adjective	Not friendly or forthcoming; cool and distant.	He seemed aloof and uninterested in the conversation.	냉담한	冷漠的
+Ambiguous	Adjective	Having more than one meaning.	Her reply was ambiguous, so I wasn't sure what she meant.	모호한	模棱两可的
+Ambitious	Adjective	Having or showing a strong desire and determination to succeed.	He's an ambitious young man who wants to start his own business.	야심찬	有雄心的
+Anxious	Adjective	Feeling or showing worry and nervousness.	I felt anxious about the upcoming exam.	불안한	焦虑的
+Anxiously	Adverb	In an anxious manner.	She waited anxiously for the results.	불안하게	焦虑地
+Apathetic	Adjective	Showing or feeling no emotion; indifferent.	He was apathetic towards the suffering of others.	무관심한	冷漠的
+Assertive	Adjective	Having or showing a confident and forceful personality.	She spoke in an assertive tone, making her point clear.	단정한/자기주장이 강한	自信的/断定的
+Attributes	Noun	A quality or feature regarded as a characteristic or inherent part of something.	Honesty is one of his best attributes.	속성	属性
+Benevolent	Adjective	Well meaning and kindly.	A benevolent king ruled the land.	자비로운	仁慈的
+Calligraphy	Noun	The art of beautiful handwriting.	He practiced calligraphy every day.	서예	书法
+Candid	Adjective	Truthful and straightforward.	She gave a candid assessment of the situation.	솔직한	坦诚的
+Cellar	Noun	A room or area under the ground floor of a building.	The wine is stored in the cellar.	지하실	地窖
+Collection	Noun	A group of things gathered together.	He has a large collection of stamps.	수집품	收藏
+Comfort	Noun	A state of physical ease and freedom from discomfort or pain.	The soft blanket provided comfort on the cold night.	편안함	舒适
+Compassionate	Adjective	Feeling or showing sympathy and concern for others.	She is a compassionate nurse who cares deeply for her patients.	동정심 많은	富有同情心的
+Conscientious	Adjective	Wishing to do what is right, especially to do one's work well.	He is a conscientious student who always does his homework.	양심적인	认真的
+Cordial	Adjective	Friendly, warm, and welcoming.	The host gave us a cordial welcome.	따뜻한/화기애애한	友好的/热情的
+Cooking	Noun	The practice or skill of preparing food by combining, heating, and mixing different ingredients.	Cooking is her favorite hobby.	요리	烹饪
+Cycling	Noun	The activity of riding a bicycle.	Cycling is a good way to exercise.	자전거 타기	骑自行车
+Cynical	Adjective	Believing that people are motivated purely by self-interest.	He had a cynical view of the world.	냉소적인	愤世嫉俗的
+Declining	Adjective	Becoming less; decreasing.	The company's profits are declining.	감소하는	下降的
+Depresses	Verb	Make someone feel very sad and without enthusiasm.	The news depressed him.	낙담시키다	使沮丧
+Discreet	Adjective	Careful and circumspect in speech or behavior.	Be discreet when discussing confidential matters.	신중한	谨慎的
+Diplomatic	Adjective	Skilled in dealing with sensitive matters or people.	A diplomatic solution was needed to resolve the conflict.	외교적인	外交的
+Doorknob	Noun	A knob on a door used for opening and closing.	The doorknob was loose.	문고리	门把手
+Drawing	Noun	The act of making a picture with a pencil, pen, or crayon.	Drawing is a relaxing hobby.	그림 그리기	绘画
+Eager	Adjective	Having keen interest or intense desire.	He was eager to learn more about the subject.	열렬한	渴望的
+Elicit	Verb	Evoke or draw out a response from someone.	The teacher tried to elicit responses from the students.	(반응을) 이끌어내다	引出
+Eloquent	Adjective	Fluent or persuasive in speaking or writing.	She gave an eloquent speech.	웅변적인	雄辩的
+Empathetic	Adjective	Showing an ability to understand and share the feelings of another.	She is an empathetic friend who always listens to my problems.	공감하는	有同理心的
+Evasive	Adjective	Tending to avoid commitment or self-revelation.	He gave evasive answers to the questions.	회피적인	闪烁其词的/回避的
+Fervent	Adjective	Showing or feeling great intensity of emotion.	She has a fervent belief in her religion.	열렬한	热烈的
+Foreground	Noun	The part of a view nearest the observer.	The flowers are in the foreground of the picture.	전경	前景
+Forum	Noun	A place where ideas and views are exchanged.	The online forum is a place for discussion.	포럼/토론회	论坛
+Gardening	Noun	The activity of tending and cultivating a garden.	Gardening is a relaxing pastime.	정원 가꾸기	园艺
+Gloomy	Adjective	Dark or poorly lit, especially depressing.	The weather was gloomy and rainy.	우울한/침울한	忧郁的/阴沉的
+Glorious	Adjective	Inspiring admiration or praise; grand.	The sunset was glorious.	영광스러운/장엄한	光荣的/辉煌的
+Grasp	Verb	Seize and hold firmly.	Grasp the rope tightly.	꽉 잡다	抓住
+Hobby	Noun	An activity done regularly for pleasure.	His hobbies include reading and playing guitar.	취미	爱好
+Indulged	Verb	Allow oneself to enjoy the pleasure of.	She indulged in a piece of chocolate cake.	탐닉하다	沉溺
+Insulted	Verb	To offend someone by what one says or does.	His remarks insulted her.	모욕하다	侮辱
+Intelligent	Adjective	Having or showing intelligence.	She is an intelligent student.	똑똑한/지적인	聪明的/有才智的
+Introspective	Adjective	Characterized by or given to introspection.	She is an introspective person who often reflects on her own thoughts and feelings.	내성적인	内省的/自省的
+Jealous	Adjective	Feeling or showing envy of someone's possessions.	She was jealous of her friend's new car.	질투하는	嫉妒的
+Jovial	Adjective	Cheerful and friendly.	He has a jovial personality.	쾌활한	快乐的/愉快的
+Jubilant	Adjective	Feeling or showing great joy or delight.	The team was jubilant after winning the championship.	환희에 찬	欢欣鼓舞的
+Kiosk	Noun	A small open-fronted structure to sell food or drinks.	I bought a newspaper from the kiosk.	키오스크/가판대	售货亭
+Lethargic	Adjective	Affected by lethargy; sluggish and apathetic.	Feeling lethargic after the long flight, she went straight to bed.	무기력한	无精打采的/昏睡的
+Make	Verb	Create or produce something.	She made a cake for his birthday.	만들다	制作
+Manipulate	Verb	Control or influence cleverly.	He tried to manipulate the situation to his advantage.	조종하다	操纵/控制
+Maverick	Noun	A person who refuses to conform to an accepted standard.	He's a maverick in the art world, known for his unconventional style.	독불장군/개성이 강한 사람	特立独行的人
+Meticulous	Adjective	Showing great attention to detail.	She is meticulous in her work.	꼼꼼한/세심한	细致的/一丝不苟的
+Mischievous	Adjective	Causing or intended to cause trouble.	The mischievous child played a prank on his teacher.	장난기 많은	淘气的/顽皮的
+Muttonhead	Noun	A foolish or stupid person.	Don't be such a muttonhead!	바보/멍청이	笨蛋/傻瓜
+Nihilistic	Adjective	Rejecting all religious and moral principles.	He expressed a nihilistic view of life.	허무주의적인	虚无主义的
+Noble	Adjective	Having high moral principles or ideals.	He had a noble goal in mind.	고귀한	高贵的/崇高的
+Nostalgia	Noun	A sentimental longing for the past.	She felt a sense of nostalgia for her childhood.	향수	怀旧/乡愁
+Optimistic	Adjective	Hopeful and confident about the future.	She is optimistic about the outcome of the surgery.	낙관적인	乐观的
+Painting	Noun	The process or art of using paint to create a picture.	Painting is a relaxing hobby.	그림 그리기	绘画
+Pensive	Adjective	Engaged in or reflecting deep or serious thought.	She sat in a pensive mood, staring out the window.	수심에 잠긴/깊은 생각에 잠긴	沉思的
+Pernicious	Adjective	Causing insidious harm or ruin; highly injurious.	Smoking is a pernicious habit.	해로운/유 pernicious	有害的/恶性的
+Pertinent	Adjective	Relevant or applicable to a particular matter.	Her comments were pertinent to the discussion.	적절한/관련 있는	相关的/中肯的
+Pessimistic	Adjective	Tending to see the worst aspect of things.	He has a pessimistic outlook on life.	비관적인	悲观的
+Photography	Noun	The art or practice of taking and processing photographs.	Photography is her passion.	사진 촬영	摄影
+Placid	Adjective	Not easily upset or excited.	The lake was placid and calm.	평온한/차분한	平静的/宁静的
+Play	Verb	Engage in an activity for enjoyment.	The children were playing in the park.	놀다	玩耍
+Pleasant	Adjective	Giving pleasure or satisfaction; agreeable.	We had a pleasant conversation.	즐거운/유쾌한	令人愉快的/舒适的
+Playing a Musical Instrument	Noun	The act of creating music with an instrument.	Playing the piano is her favorite pastime.	악기 연주	演奏乐器
+Proportion	Noun	A part or share in relation to a whole.	A large proportion of the population lives in urban areas.	비율/부분	比例/部分
+Quixotic	Adjective	Exceedingly idealistic, unrealistic, and impractical.	His quixotic quest for adventure led him into trouble.	돈키호테식의/비현실적인	不切实际的/空想的
+Rapid	Adjective	Occurring or capable of occurring quickly.	The car was traveling at a rapid speed.	빠른/신속한	快速的/迅速的
+Rather	Adverb	To a greater extent.	I'd rather stay home tonight.	오히려/차라리	相当/宁可
+Read	Verb	To comprehend written or printed matter.	She read the book in one day.	읽다	阅读
+Resilient	Adjective	Able to withstand or recover quickly from difficult conditions.	She is a resilient person who always bounces back from adversity.	회복력이 있는	有韧性的/适应力强的
+Sanguine	Adjective	Optimistic or positive in difficult situations.	He remained sanguine despite the challenges.	낙관적인/쾌활한	乐观的/满怀希望的
+Sarcastic	Adjective	Ironically contemptuous or mocking.	She made a sarcastic remark.	비꼬는/빈정대는	讽刺的/挖苦的
+Screen	Noun	A flat surface on which images are displayed.	The movie was shown on a large screen.	스크린/화면	屏幕
+Sentimental	Adjective	Showing feelings of tenderness or nostalgia.	She kept the letter for sentimental reasons.	감상적인	多愁善感的/怀旧的
+Servant	Noun	A person employed to do housework.	The wealthy family had several servants.	하인/종	仆人
+Sever	Verb	To separate or divide by cutting.	He severed the rope with a knife.	절단하다/끊다	切断/断绝
+Shame	Noun	A painful feeling of humiliation.	She felt a sense of shame after failing the test.	수치심	羞耻/耻辱
+Skeptical	Adjective	Having doubts about something.	I am skeptical about his claims.	회의적인	怀疑的/持怀疑态度的
+Sleep	Verb	Be in a state of inactivity.	I slept for eight hours last night.	잠자다	睡觉
+Slouching	Verb	To sit or stand with a stoop or slump.	Stop slouching and sit up straight.	구부정하게 앉다/서다	没精打采地坐着/站着
+Soaking	Verb	To be completely wet.	My clothes were soaking wet from the rain.	흠뻑 젖다	湿透/浸湿
+Solitary	Adjective	Done or existing alone.	She lived a solitary life in the mountains.	고독한/혼자 하는	孤独的/独自的
+Spare	Verb	Refrain from harming or destroying.	Spare the rod, spoil the child.	(시간/돈 등을) 할애하다/내다	抽出(时间、金钱等)/饶恕
+Sports	Noun	Games involving physical exertion.	She enjoys playing sports like basketball and tennis.	스포츠/운동 경기	体育运动
+Stamp	Noun	A small piece of paper to show payment.	I put a stamp on the envelope.	우표	邮票
+Strive	Verb	Make great efforts to achieve something.	We must strive to do our best.	노력하다/분투하다	努力/奋斗
+Sullen	Adjective	Bad-tempered or sulky.	He was sullen and withdrawn after the argument.	시무룩한/뚱한	愠怒的/闷闷不乐的
+Sycophantic	Adjective	Seeking favor from someone in power.	His sycophantic behavior annoyed his colleagues.	아첨하는/알랑거리는	谄媚的/阿谀奉承的
+Taciturn	Adjective	Reserved or uncommunicative in speech.	He is a taciturn man who rarely speaks.	과묵한/말이 없는	沉默寡言的/寡言少语的
+Tenacious	Adjective	Determined and persistent.	She is a tenacious athlete who never gives up.	끈기 있는/집요한	顽强的/不屈不挠的
+Tenet	Noun	A principle or belief held by a person or group.	One of the tenets of Buddhism is non-violence.	교리/원칙	信条/原则
+Tender	Adjective	Delicate or gentle in nature or manner.	She gave him a tender kiss.	다정한/부드러운	温柔的/亲切的
+Tenderly	Adverb	In a gentle and loving manner.	She held the baby tenderly in her arms.	부드럽게/다정하게	温柔地/体贴地
+Timid	Adjective	Lacking self-assurance.	She is a timid child who is afraid of strangers.	소심한/겁 많은	胆小的/羞怯的
+Tossing	Verb	Throw lightly.	He was tossing a ball in the air.	던지다	抛/扔
+Turbulent	Adjective	Characterized by conflict or confusion.	The country experienced a turbulent period in its history.	격동하는/혼란스러운	动荡的/混乱的
+Ubiquitous	Adjective	Appearing or found everywhere.	Smartphones are ubiquitous these days.	어디에나 있는/흔한	无处不在的/普遍存在的
+Universal	Adjective	Done by or affecting all people or things.	Poverty is a universal problem.	보편적인/전세계적인	普遍的/全球性的
+Vindicate	Verb	To clear from blame or doubt.	The evidence vindicated him.	옹호하다/무죄를 입증하다	证明清白/洗清嫌疑
+Vindictive	Adjective	Showing a strong or unreasoning desire for revenge.	He felt vindictive towards his former employer.	복수심에 불타는	报复性的/怀恨在心的
+Vivid	Adjective	Clearly and sharply presented in the mind.	She has vivid memories of her childhood.	생생한/선명한	生动的/鲜明的
+Vividly	Adverb	In a clear, strong, and detailed way.	I vividly remember the day I met her.	생생하게/선명하게	生动地/鲜明地
+Volatile	Adjective	Likely to change rapidly and unpredictably.	The stock market is volatile.	변덕스러운/불안정한	易变的/不稳定的
+Watch	Verb	To look at something attentively.	She watched the movie with interest.	보다/지켜보다	观看/注视
+Wise	Adjective	Having or showing experience, knowledge, and good judgment.	She made a wise decision.	현명한/지혜로운	明智的/英明的
+Wistful	Adjective	Longing for something lost or gone.	She gave a wistful sigh as she thought about her past.	그리워하는/아쉬워하는	渴望的/留恋的
+Wrinkled	Adjective	Having wrinkles or folds.	His face was wrinkled with age.	주름진	有皱纹的
+Xenophobic	Adjective	Having or showing a dislike of or prejudice against people from other countries.	Xenophobic attitudes are harmful to society.	외국인 혐오의	仇外的/排外的
+Xylophone	Noun	A musical instrument in the percussion family.	She played the xylophone in the school band.	실로폰	木琴
+Yield	Verb	To give way under pressure.	The tree yielded to the strong wind.	굴복하다/산출하다	屈服/产生
+contort	Verb	to twist or bend out of its normal shape.	His face contorted in pain.	비틀다, 찡그리다	扭曲, 歪曲
+rather	Adverb	used to indicate one's preference in a particular matter.	I would rather walk than take the bus.	오히려, 차라리	宁愿, 宁可
+spare	Adjective/Verb	additional to what is required; to refrain from harming or destroying.	We have a spare tire in the trunk. / Spare the rod, spoil the child.	여분의, 아끼다	备用的, 剩下;  饶恕, 省下
+failure	Noun	lack of success.	The project was a failure.	실패	失败
+obesity	Noun	the condition of being grossly fat or overweight.	Obesity is a growing health problem.	비만	肥胖
+forum	Noun	a place, meeting, or medium where ideas and views on a particular issue can be exchanged.	The online forum is a place for discussion.	포럼, 토론회	论坛
+mutable	Adjective	liable to change.	The weather is mutable in this region.	변하기 쉬운	易变的, 可变的
+survey	Noun/Verb	a general view, examination, or description of someone or something. / to examine and record the area and features of (an area of land) so as to construct a map or description.	The survey showed that most people support the new policy. /  They surveyed the land before building the house.	설문 조사, 측량하다	调查, 测量
+indulge	Verb	allow oneself to enjoy the pleasure of.	She indulged in a piece of chocolate cake.	탐닉하다, 빠지다	沉溺, 放纵
+meanwhile	Adverb	in the intervening period of time.	The flight is delayed; meanwhile, we can have some coffee.	그 동안에	与此同时, 在此期间
+declining	Adjective	becoming less; decreasing.	The company's profits are declining.	감소하는	下降的, 衰退的
+shame	Noun	a painful feeling of humiliation or distress caused by the consciousness of wrong or foolish behavior.	She felt a sense of shame after failing the test.	수치심	羞耻, 耻辱
+lay	Verb	put down, especially gently or carefully.	She laid the baby in the crib.	놓다, 두다	放置, 躺下
+awhile	Adverb	for a short time.	Stay awhile and listen.	잠시 동안	一会儿, 片刻
+shut	Verb	move something into position so as to cover an opening; become closed.	Shut the door! / The door shut by itself.	닫다	关闭
+hollered	Verb	(past tense) give a loud shout or cry.	He hollered in pain.	소리치다, 외치다	喊叫, 大叫
+sunk	Verb (past participle)	descend beneath the surface of something, especially of a liquid; appear to shrink or settle downwards.	The ship sunk to the bottom of the ocean. /  His cheeks had sunk in.	가라앉다	下沉, 沉没
+struggling	Verb	make forceful or violent efforts to get free of restraint or constriction.	He was struggling to breathe.	발버둥치다, 고투하다	挣扎, 奋斗
+shocked	Adjective	feeling surprised and upset.	I was shocked by the news.	충격을 받은	震惊的
+bible	Noun	the Christian scriptures, consisting of the Old and New Testaments.	He read a passage from the Bible.	성경	圣经
+several	Adjective/Determiner/Pronoun	more than two but not many.	Several people attended the meeting.	몇몇의, 여러	几个, 一些
+settlement	Noun	a place, typically one that has hitherto been uninhabited, where people establish a community.	The early settlers built a small village.	정착지	定居点
+haunt	Verb	(of a ghost) manifest itself at (a place) regularly.	The house is said to be haunted.	(귀신이) 출몰하다	闹鬼
+preacher	Noun	a person who preaches, especially a minister of religion.	The preacher gave a sermon on forgiveness.	설교자, 전도사	传教士, 牧师
+disfigure	Verb	spoil the appearance of.	The accident disfigured her face.	훼손하다, 손상시키다	毁容, 损伤
+confess	Verb	admit that one committed a crime or did something wrong.	He confessed to the crime.	자백하다	坦白, 承认
+bones	Noun	any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates.	The dog buried its bone in the garden.	뼈	骨头
+collection place	Noun	a designated location for gathering or accumulating something.	The designated collection place for donations is the church hall.	수집 장소	收集处
+scream	Verb/Noun	give a long, loud, piercing cry or cries expressing excitement, fear, or pain. / a long, loud, piercing cry expressing excitement, fear, or pain.	She screamed in terror. / A scream echoed through the night.	비명을 지르다, 비명	尖叫, 尖叫声
+trembling	Adjective/Verb	shaking involuntarily, typically as a result of anxiety, excitement, or frailty. / shake involuntarily, typically as a result of anxiety, excitement, or frailty.	Her hands were trembling. / She was trembling with fear.	떨리는, 떨다	颤抖的, 颤抖
+scientific	Adjective	based on or characterized by the methods and principles of science.	The scientific method involves observation and experimentation.	과학적인	科学的
+telescope	Noun	an optical instrument designed to make distant objects appear nearer.	He looked at the stars through a telescope.	망원경	望远镜
+astronomy	Noun	the branch of science which deals with celestial objects, space, and the physical universe as a whole.	She is studying astronomy.	천문학	天文学
+subscribes	Verb	arrange to receive something regularly, typically a publication, by paying in advance.	He subscribes to several magazines.	구독하다	订阅
+astrophysicist	Noun	an expert in astrophysics.	The astrophysicist studied black holes.	천체물리학자	天体物理学家
+sculpture	Noun	the art of making two- or three-dimensional representative or abstract forms, especially by carving stone or wood or casting metal or plaster.	He admired the sculpture in the museum.	조각	雕塑
+landscape	Noun	all the visible features of an area of countryside or land, often considered in terms of their aesthetic appeal.	The landscape was beautiful.	풍경	风景
+athletics	Noun	physical sports and games of any kind.	She is good at athletics.	운동 경기	竞技
+local	Adjective	relating or restricted to a particular area or one's neighborhood.	The local newspaper reported the story.	지역의, 현지의	当地的
+rover	Noun	a person who travels from place to place.	The rover finally settled down in a small town.	방랑자	流浪者, 漫游者
+regional	Adjective	relating to or characteristic of a region.	The regional dialect is difficult to understand.	지역의	地区的, 区域性的
+genre	Noun	a category of artistic composition, as in music or literature, characterized by similarities in form, style, or subject matter.	Science fiction is a popular genre.	장르	类型
+preacher	Noun	a person who preaches, especially a minister of religion.	The preacher gave a sermon on forgiveness.	설교자, 전도사	传教士, 牧师
+Quran	Noun	the Islamic sacred book, believed to be the word of God as dictated to Muhammad by the archangel Gabriel and written down in Arabic.	He read a passage from the Quran.	꾸란, 코란	古兰经
+Torah	Noun	(in Judaism) the law of God as revealed to Moses and recorded in the first five books of the Hebrew scriptures (the Pentateuch).	He studied the Torah.	토라	律法书 (妥拉)
