@@ -56,50 +56,50 @@ function startQuizGame(vocabData) {
 
   let timer; // To control the next question timing
 
-function loadNewQuestion() {
-  clearTimeout(timer); // Clear previous timers
-  resultContainer.innerHTML = ''; // Clear result display
-  questionContainer.innerHTML = ''; // Clear previous question
+  function loadNewQuestion() {
+    clearTimeout(timer); // Clear previous timers
+    resultContainer.innerHTML = ''; // Clear result display
+    questionContainer.innerHTML = ''; // Clear previous question
 
-  // Randomly decide whether to show a word or definition
-  const showDefinition = Math.random() > 0.5;
-  const questionType = showDefinition ? 'definition' : 'word';
+    // Randomly decide whether to show a word or definition
+    const showDefinition = Math.random() > 0.5;
+    const questionType = showDefinition ? 'definition' : 'word';
 
-  // Select a random entry from the vocabData
-  const correctEntry = vocabData[Math.floor(Math.random() * vocabData.length)];
+    // Select a random entry from the vocabData
+    const correctEntry = vocabData[Math.floor(Math.random() * vocabData.length)];
 
-  // Create separate elements for the question and entry
-  const questionText = document.createElement('p');
-  questionText.textContent = showDefinition
-    ? `Which word matches this definition?`
-    : `What is the definition of this word?`;
+    // Create separate elements for the question and entry
+    const questionText = document.createElement('p');
+    questionText.textContent = showDefinition
+      ? `Which word matches this definition?`
+      : `What is the definition of this word?`;
 
-  const entryText = document.createElement('p');
-  entryText.textContent = showDefinition ? correctEntry.definition : correctEntry.word;
-  entryText.className = 'highlighted-entry'; // Add a CSS class for styling
+    const entryText = document.createElement('p');
+    entryText.textContent = showDefinition ? correctEntry.definition : correctEntry.word;
+    entryText.className = 'highlighted-entry'; // Add a CSS class for styling
 
-  // Append the question and entry to the questionContainer
-  questionContainer.appendChild(questionText);
-  questionContainer.appendChild(entryText);
+    // Append the question and entry to the questionContainer
+    questionContainer.appendChild(questionText);
+    questionContainer.appendChild(entryText);
 
-  // Create shuffled options
-  const shuffledData = shuffleArray([...vocabData]);
-  let options = shuffledData.slice(0, 3); // Pick 3 random incorrect options
-  if (!options.some(option => option.word === correctEntry.word)) {
-    options.push(correctEntry); // Ensure the correct option is included
+    // Create shuffled options
+    const shuffledData = shuffleArray([...vocabData]);
+    let options = shuffledData.slice(0, 3); // Pick 3 random incorrect options
+    if (!options.some(option => option.word === correctEntry.word)) {
+      options.push(correctEntry); // Ensure the correct option is included
+    }
+    options = shuffleArray(options); // Shuffle again to randomize positions
+
+    // Display options as buttons
+    optionsContainer.innerHTML = ''; // Clear previous options
+    options.forEach(option => {
+      const optionButton = document.createElement('button');
+      optionButton.className = 'game-item';
+      optionButton.textContent = showDefinition ? option.word : option.definition;
+      optionButton.addEventListener('click', () => checkAnswer(option, correctEntry, questionType));
+      optionsContainer.appendChild(optionButton);
+    });
   }
-  options = shuffleArray(options); // Shuffle again to randomize positions
-
-  // Display options as buttons
-  optionsContainer.innerHTML = ''; // Clear previous options
-  options.forEach(option => {
-    const optionButton = document.createElement('button');
-    optionButton.className = 'game-item';
-    optionButton.textContent = showDefinition ? option.word : option.definition;
-    optionButton.addEventListener('click', () => checkAnswer(option, correctEntry, questionType));
-    optionsContainer.appendChild(optionButton);
-  });
-}
 
   function checkAnswer(selectedOption, correctEntry, questionType) {
     const isCorrect =
