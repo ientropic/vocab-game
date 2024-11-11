@@ -30,7 +30,7 @@ function initializeGame(vocabData) {
   gameContainer.innerHTML = ''; // Clear content if reinitializing
 
   const quizGameButton = document.createElement('button');
-  quizGameButton.textContent = 'Quiz Game';
+  quizGameButton.textContent = 'Start Quiz';
   quizGameButton.className = 'game-button';
   quizGameButton.addEventListener('click', () => startQuizGame(vocabData));
 
@@ -92,23 +92,21 @@ function startQuizGame(vocabData) {
   }
 
   function checkAnswer(selectedOption, correctEntry, questionType) {
-  const isCorrect =
-    (questionType === 'definition' && selectedOption.word === correctEntry.word) ||
-    (questionType === 'word' && selectedOption.definition === correctEntry.definition);
+    const isCorrect =
+      (questionType === 'definition' && selectedOption.word === correctEntry.word) ||
+      (questionType === 'word' && selectedOption.definition === correctEntry.definition);
 
-  if (isCorrect) {
-    flashScreen('green'); // Flash green for correct answer
-    resultContainer.textContent = 'Correct!';
-  } else {
-    flashScreen('red'); // Flash red for incorrect answer
-    resultContainer.textContent = 'Incorrect.';
+    if (isCorrect) {
+      flashScreen('green', 'Correct! Well done!'); // Flash green for correct answer
+    } else {
+      flashScreen('red', 'Incorrect. Try again!'); // Flash red for incorrect answer
+    }
+
+    // Load the next question after 2 seconds
+    timer = setTimeout(loadNewQuestion, 2000);
   }
 
-  // Load the next question after 2 seconds
-  timer = setTimeout(loadNewQuestion, 2000);
-}
-
-  function flashScreen(color) {
+  function flashScreen(color, message) {
     const flashOverlay = document.createElement('div');
     flashOverlay.style.position = 'fixed';
     flashOverlay.style.top = '0';
@@ -118,68 +116,16 @@ function startQuizGame(vocabData) {
     flashOverlay.style.backgroundColor = color;
     flashOverlay.style.opacity = '0.5';
     flashOverlay.style.zIndex = '9999';
+    flashOverlay.style.pointerEvents = 'none'; // Ensure overlay doesn't block clicks
     document.body.appendChild(flashOverlay);
 
+    // Display the result message
+    resultContainer.textContent = message;
+
+    // Remove the flash overlay after 500ms
     setTimeout(() => {
       flashOverlay.remove();
-    }, 500); // Flash lasts 500ms
-  }
-
-  // Start the game by loading the first question
-  loadNewQuestion();
-}
-
-  function checkAnswer(selectedOption, correctEntry, questionType) {
-    const isCorrect =
-      (questionType === 'definition' && selectedOption.word === correctEntry.word) ||
-      (questionType === 'word' && selectedOption.definition === correctEntry.definition);
-
-    if (isCorrect) {
-      showConfetti();
-      resultContainer.textContent = 'Correct!';
-    } else {
-      showRedX();
-      resultContainer.textContent = 'Incorrect.';
-    }
-
-    // Load the next question after 5 seconds
-    timer = setTimeout(loadNewQuestion, 5000);
-  }
-
-  function showConfetti() {
-    const confettiCanvas = document.createElement('canvas');
-    confettiCanvas.id = 'confetti-canvas';
-    confettiCanvas.style.position = 'fixed';
-    confettiCanvas.style.top = '0';
-    confettiCanvas.style.left = '0';
-    confettiCanvas.style.width = '100%';
-    confettiCanvas.style.height = '100%';
-    document.body.appendChild(confettiCanvas);
-
-    const confetti = new ConfettiGenerator({ target: 'confetti-canvas' });
-    confetti.render();
-
-    // Stop and remove confetti after 3 seconds
-    setTimeout(() => {
-      confetti.clear();
-      confettiCanvas.remove();
-    }, 3000);
-  }
-
-  function showRedX() {
-    const redX = document.createElement('div');
-    redX.textContent = 'X';
-    redX.style.color = 'red';
-    redX.style.fontSize = '100px';
-    redX.style.fontWeight = 'bold';
-    redX.style.position = 'fixed';
-    redX.style.top = '50%';
-    redX.style.left = '50%';
-    redX.style.transform = 'translate(-50%, -50%)';
-    document.body.appendChild(redX);
-
-    // Remove red X after 2 seconds
-    setTimeout(() => redX.remove(), 2000);
+    }, 500);
   }
 
   // Start the game by loading the first question
@@ -194,10 +140,3 @@ function shuffleArray(array) {
   }
   return array;
 }
-
-
-
-console.log("Selected Option:", selectedOption);
-console.log("Correct Entry:", correctEntry);
-console.log("Question Type:", questionType);
-console.log("Is Correct:", isCorrect);
