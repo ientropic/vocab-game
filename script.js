@@ -29,8 +29,12 @@ function parseTSV(text) {
 }
 
 function initializeGame(vocabData) {
-  // Same as above
-  // ... (use the same initializeGame and startMatchGame functions)
+  const quizGameButton = document.createElement('button');
+  quizGameButton.textContent = 'Quiz Game';
+  quizGameButton.className = 'game-button';
+  quizGameButton.addEventListener('click', () => startQuizGame(vocabData));
+
+gameContainer.appendChild(quizGameButton);
 }
 
 function startQuizGame(vocabData) {
