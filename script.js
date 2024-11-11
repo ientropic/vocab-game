@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', () => {
   fetch('vocab.txt')
     .then(response => response.text())
@@ -19,8 +17,7 @@ function parseTSV(text) {
     const parts = line.split('\t');
     const entry = {};
     headers.forEach((header, index) => {
-      const key = header.replace(/ /g, '').replace(/(\w)(\w*)/g,
-          function(g0,g1,g2){return g1.toLowerCase() + g2;});
+      const key = header.toLowerCase().replace(/\s+/g, ''); // Simplified key formatting
       entry[key] = parts[index];
     });
     return entry;
@@ -29,19 +26,22 @@ function parseTSV(text) {
 }
 
 function initializeGame(vocabData) {
+  const gameContainer = document.getElementById('game-container'); // Ensure this element exists in your HTML
+  gameContainer.innerHTML = ''; // Clear content if reinitializing
+
   const quizGameButton = document.createElement('button');
   quizGameButton.textContent = 'Quiz Game';
   quizGameButton.className = 'game-button';
   quizGameButton.addEventListener('click', () => startQuizGame(vocabData));
 
-gameContainer.appendChild(quizGameButton);
+  gameContainer.appendChild(quizGameButton);
 }
 
 function startQuizGame(vocabData) {
   const gameContainer = document.getElementById('game-container');
   gameContainer.innerHTML = ''; // Clear previous content
 
-  // Create a container for the question and options
+  // Create containers
   const questionContainer = document.createElement('div');
   const optionsContainer = document.createElement('div');
   const resultContainer = document.createElement('div');
@@ -57,7 +57,7 @@ function startQuizGame(vocabData) {
   let timer; // To control the next question timing
 
   function loadNewQuestion() {
-    clearTimeout(timer); // Clear any previous timers
+    clearTimeout(timer); // Clear previous timers
     resultContainer.innerHTML = ''; // Clear result display
 
     // Randomly decide whether to show a word or definition
@@ -72,11 +72,13 @@ function startQuizGame(vocabData) {
       ? `Which word matches this definition? "${correctEntry.definition}"`
       : `What is the definition of "${correctEntry.word}"?`;
 
-    // Create shuffled options (one correct, others incorrect)
-    const shuffledData = shuffleArray(vocabData);
-    const options = shuffledData.slice(0, 4); // Pick 4 random options
-    if (!options.includes(correctEntry)) options[0] = correctEntry; // Ensure the correct answer is included
-    shuffleArray(options); // Shuffle again to randomize position
+    // Create shuffled options
+    const shuffledData = shuffleArray([...vocabData]);
+    let options = shuffledData.slice(0, 3); // Pick 3 random incorrect options
+    if (!options.some(option => option.word === correctEntry.word)) {
+      options.push(correctEntry); // Ensure the correct option is included
+    }
+    options = shuffleArray(options); // Shuffle again to randomize positions
 
     // Display options as buttons
     optionsContainer.innerHTML = ''; // Clear previous options
@@ -146,4 +148,11 @@ function startQuizGame(vocabData) {
   loadNewQuestion();
 }
 
-// Rest of the script remains the same
+// Utility function to shuffle an array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
