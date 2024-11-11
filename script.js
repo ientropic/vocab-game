@@ -194,3 +194,10 @@ function shuffleArray(array) {
   }
   return array;
 }
+
+
+
+console.log("Selected Option:", selectedOption);
+console.log("Correct Entry:", correctEntry);
+console.log("Question Type:", questionType);
+console.log("Is Correct:", isCorrect);
