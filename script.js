@@ -41,7 +41,7 @@ function startQuizGame(vocabData) {
   const gameContainer = document.getElementById('game-container');
   gameContainer.innerHTML = ''; // Clear previous content
 
-  // Create containers
+  // Create a container for the question and options
   const questionContainer = document.createElement('div');
   const optionsContainer = document.createElement('div');
   const resultContainer = document.createElement('div');
@@ -90,6 +90,44 @@ function startQuizGame(vocabData) {
       optionsContainer.appendChild(optionButton);
     });
   }
+
+  function checkAnswer(selectedOption, correctEntry, questionType) {
+    const isCorrect =
+      (questionType === 'definition' && selectedOption.word === correctEntry.word) ||
+      (questionType === 'word' && selectedOption.definition === correctEntry.definition);
+
+    if (isCorrect) {
+      flashScreen('green'); // Flash green for correct answer
+      resultContainer.textContent = 'Correct!';
+    } else {
+      flashScreen('red'); // Flash red for incorrect answer
+      resultContainer.textContent = 'Incorrect.';
+    }
+
+    // Load the next question after 2 seconds
+    timer = setTimeout(loadNewQuestion, 2000);
+  }
+
+  function flashScreen(color) {
+    const flashOverlay = document.createElement('div');
+    flashOverlay.style.position = 'fixed';
+    flashOverlay.style.top = '0';
+    flashOverlay.style.left = '0';
+    flashOverlay.style.width = '100%';
+    flashOverlay.style.height = '100%';
+    flashOverlay.style.backgroundColor = color;
+    flashOverlay.style.opacity = '0.5';
+    flashOverlay.style.zIndex = '9999';
+    document.body.appendChild(flashOverlay);
+
+    setTimeout(() => {
+      flashOverlay.remove();
+    }, 500); // Flash lasts 500ms
+  }
+
+  // Start the game by loading the first question
+  loadNewQuestion();
+}
 
   function checkAnswer(selectedOption, correctEntry, questionType) {
     const isCorrect =
