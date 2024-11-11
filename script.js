@@ -92,21 +92,21 @@ function startQuizGame(vocabData) {
   }
 
   function checkAnswer(selectedOption, correctEntry, questionType) {
-    const isCorrect =
-      (questionType === 'definition' && selectedOption.word === correctEntry.word) ||
-      (questionType === 'word' && selectedOption.definition === correctEntry.definition);
+  const isCorrect =
+    (questionType === 'definition' && selectedOption.word === correctEntry.word) ||
+    (questionType === 'word' && selectedOption.definition === correctEntry.definition);
 
-    if (isCorrect) {
-      flashScreen('green'); // Flash green for correct answer
-      resultContainer.textContent = 'Correct!';
-    } else {
-      flashScreen('red'); // Flash red for incorrect answer
-      resultContainer.textContent = 'Incorrect.';
-    }
-
-    // Load the next question after 2 seconds
-    timer = setTimeout(loadNewQuestion, 2000);
+  if (isCorrect) {
+    flashScreen('green'); // Flash green for correct answer
+    resultContainer.textContent = 'Correct!';
+  } else {
+    flashScreen('red'); // Flash red for incorrect answer
+    resultContainer.textContent = 'Incorrect.';
   }
+
+  // Load the next question after 2 seconds
+  timer = setTimeout(loadNewQuestion, 2000);
+}
 
   function flashScreen(color) {
     const flashOverlay = document.createElement('div');
